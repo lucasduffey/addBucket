@@ -10,6 +10,8 @@
   "user":"",
   "password":"",
   "db":""
-}
+}  
+
+obviously fill in the real values   
   
 $python3 addBucket -help
