@@ -6,7 +6,7 @@ from sys import stderr
 
 class DBAdd:
     def __init__(self):
-        with open("~/.config.json") as f:
+        with open("config.json") as f:
             self.config = loads(bytes(f.read(), encoding='utf8'))
         self.sql = connect(host=self.config.get("rds"),
                            user=self.config.get("user"),
